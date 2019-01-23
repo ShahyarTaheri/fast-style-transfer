@@ -1,0 +1,38 @@
+name: fast-style
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - certifi=2018.8.24=py35_1001
+  - mock=2.0.0=py35_0
+  - pbr=5.1.1=py_0
+  - protobuf=3.1.0=py35_vc14_0
+  - six=1.11.0=py35_1
+  - tensorflow=0.12.1=py35_2
+  - blas=1.0=mkl
+  - bzip2=1.0.6=hfa6e2cd_5
+  - freetype=2.5.5=vc14_2
+  - icc_rt=2019.0.0=h0cc432a_1
+  - intel-openmp=2019.1=144
+  - jpeg=8d=vc14_2
+  - libpng=1.6.34=h79bbb47_0
+  - libtiff=4.0.6=vc14_2
+  - mkl=2017.0.4=h6d528fc_0
+  - numpy=1.11.3=py35h4a99626_4
+  - pillow=3.4.2=py35_0
+  - pip=10.0.1=py35_0
+  - python=3.5.6=he025d50_0
+  - scipy=0.18.1=np111py35_1
+  - setuptools=40.2.0=py35_0
+  - vc=14=h0510ff6_3
+  - vs2015_runtime=14.15.26706=h3a45250_0
+  - wheel=0.31.1=py35_0
+  - wincertstore=0.2=py35hfebbdb8_0
+  - zlib=1.2.11=h8395fce_2
+  - pip:
+    - decorator==4.3.0
+    - imageio==2.4.1
+    - moviepy==0.2.3.5
+    - tqdm==4.29.1
+prefix: C:\python\miniconda3\envs\fast-style
+
