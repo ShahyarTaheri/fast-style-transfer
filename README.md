@@ -77,9 +77,9 @@ Use `style.py` to train a new style transfer network. Run `python style.py` to v
 ### Evaluating Style Transfer Networks
 Use `evaluate.py` to evaluate a style transfer network. Run `python evaluate.py` to view all the possible parameters. Evaluation takes 100 ms per frame (when batch size is 1) on a Maxwell Titan X. [More detailed documentation here](docs.md#evaluatepy). Takes several seconds per frame on a CPU. **Models for evaluation are [located here](https://drive.google.com/drive/folders/0B9jhaT37ydSyRk9UX0wwX3BpMzQ?usp=sharing)**. Example usage:
 
-    python evaluate.py --checkpoint path/to/style/model.ckpt \
-      --in-path dir/of/test/imgs/ \
-      --out-path dir/for/results/
+    python evaluate.py --checkpoint checkpoint/wave.ckpt \
+      --in-path assets/rv.jpg \
+      --out-path assets/rv_test.jpg
 
 ### Stylizing Video
 Use `transform_video.py` to transfer style into a video. Run `python transform_video.py` to view all the possible parameters. Requires `ffmpeg`. [More detailed documentation here](docs.md#transform_videopy). Example usage:
