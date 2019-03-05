@@ -1,5 +1,14 @@
 ## Fast Style Transfer in [TensorFlow](https://github.com/tensorflow/tensorflow)
 
+### Installation Instructions 
+```cmd
+conda create -n style-transfer python=3
+activate style-transfer
+conda install tensorflow scipy pillow
+pip install moviepy
+python -c "import imageio; imageio.plugins.ffmpeg.download()"
+```
+
 Add styles from famous paintings to any photo in a fraction of a second! [You can even style videos!](#video-stylization)
 
 <p align = 'center'>
